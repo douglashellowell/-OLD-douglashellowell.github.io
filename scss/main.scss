@@ -1,5 +1,30 @@
-$primary-color: #444;
+$header-primary-color: #444;
+$header-secondary-color: #fff;
+$coding-primary-color: #000;
+$coding-secondary-color: #2840A2;
+$gaming-primary-color: #fff;
+$gaming-secondary-color: #EE8922;
 
 body {
-    background: $primary-color;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title-bar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background: $header-primary-color;
+    color: $header-secondary-color;
+    h1 {
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+        padding: 5px;
+    }
+};
+
+.underbannerpadding {
+    height: 50px
 }
