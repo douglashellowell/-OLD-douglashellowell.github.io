@@ -3,12 +3,22 @@ body {
   padding: 0;
   font-family: 'Raleway', sans-serif; }
 
+h2 {
+  margin: 0;
+  padding: 20px 0px 0px 0px;
+  text-indent: 50px; }
+
+h3 {
+  margin: 0;
+  padding: 0px; }
+
 .title-bar {
   height: 50px;
   width: 100%;
   position: fixed;
   background: #444;
-  color: #fff; }
+  color: #fff;
+  box-shadow: 0px 5px 10px #000; }
   .title-bar h1 {
     margin: 0;
     justify-content: center;
@@ -17,3 +27,48 @@ body {
 
 .underbannerpadding {
   height: 50px; }
+
+.topic-header-wrapper {
+  width: 94vw; }
+
+.coding-body {
+  background-color: #2b2b2b;
+  color: #869f39;
+  font-family: 'Roboto Mono', monospace; }
+  .coding-body #codetest {
+    color: white; }
+  .coding-body #keyword {
+    color: #8a6ca1; }
+  .coding-body #variable {
+    color: #4571a1; }
+  .coding-body #equals {
+    color: #606060; }
+  .coding-body #string {
+    color: #869f39; }
+  .coding-body #console {
+    color: #bb4146; }
+  .coding-body #function {
+    color: #cb6502; }
+
+.gaming-body {
+  background-color: #EE8922;
+  color: #fff; }
+
+.projects-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.projects-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 94vw; }
+
+.project-item {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+  .project-item img {
+    width: 98%; }
