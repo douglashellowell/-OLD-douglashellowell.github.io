@@ -6,3 +6,7 @@ function getEvenNumbers(nums) {
   }
 
   console.log('hi')
+
+  let skills = ['Javascript', 'HTML', 'CSS/SASS', 'NodeJS']
+
+  skills.forEach(skill => console.log(`I love coding with ${skill}!`))

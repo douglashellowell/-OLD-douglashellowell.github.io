@@ -1,7 +1,19 @@
 $header-primary-color: #444;
 $header-secondary-color: #fff;
-$coding-primary-color: #000;
-$coding-secondary-color: #2840A2;
+
+$coding-primary-color: #1e1e1e;
+$coding-secondary-color: rgb(43, 87, 25);
+
+$coding-variable: #4571a1;
+$coding-keyword: #8a6ca1;
+$coding-string: #869f39;
+$coding-object: #caae41;
+$coding-background: #1e1e1e;
+$coding-border: #505050;
+$coding-equals: #606060;
+$coding-console: #bb4146;
+$coding-function: #cb6502;
+
 $gaming-primary-color: #fff;
 $gaming-secondary-color: #EE8922;
 
@@ -9,14 +21,30 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+    font-size: 13px;
 }
 
+// 'Coding', 'Gaming Events'
+h2 {
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    text-indent: 50px;
+}
+
+// 'About [section]' and 'My Projects' titles
+h3 {
+    margin: 0;
+    padding: 0px
+}
+ 
 .title-bar {
     height: 50px;
     width: 100%;
     position: fixed;
     background: $header-primary-color;
     color: $header-secondary-color;
+    box-shadow: 0px 5px 10px #000;
+    // 'Douglas Hellowell'
     h1 {
         margin: 0;
         justify-content: center;
@@ -27,4 +55,69 @@ body {
 
 .underbannerpadding {
     height: 50px
+}
+
+.topic-header-wrapper {
+    width: 94vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.coding-body {
+    background-color: lighten($coding-primary-color,5);
+    color: $coding-string;
+    font-family:  'Roboto Mono', monospace;
+    #codetest{
+        color: white;
+    }
+    #keyword{
+        color: $coding-keyword;
+    }
+    #variable {
+        color: $coding-variable;
+    }
+    #equals {
+        color: $coding-equals;
+    }
+    #string{
+        color: $coding-string;
+    }
+    #console{
+        color: $coding-console;
+    }
+    #function {
+        color: $coding-function;
+    }
+}
+
+.gaming-body {
+    background-color: $gaming-secondary-color;
+    color: $gaming-primary-color;
+}
+
+.projects-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 94vw;
+}
+
+.project-item {
+    background-color: $coding-primary-color;
+    // width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    // justify-content: center;
+    img {
+        width: 98%;
+    }
 }
