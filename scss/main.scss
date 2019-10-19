@@ -16,7 +16,7 @@ $coding-function: #cb6502;
 
 $gaming-primary-color: #fff;
 $gaming-secondary-color: #EE8922;
-
+ 
 body {
     margin: 0;
     padding: 0;
@@ -24,11 +24,20 @@ body {
     font-size: 13px;
 }
 
+h1{
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:10;
+}
+
 // 'Coding', 'Gaming Events'
 h2 {
     margin: 0;
     padding: 20px 0px 0px 0px;
-    text-indent: 50px;
+    // text-indent: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 10;
+    font-size: 30px;
 }
 
 // 'About [section]' and 'My Projects' titles
@@ -43,7 +52,7 @@ h3 {
     position: fixed;
     background: $header-primary-color;
     color: $header-secondary-color;
-    box-shadow: 0px 5px 10px #000;
+    box-shadow: 0px 5px 10px rgb(26, 26, 26);
     // 'Douglas Hellowell'
     h1 {
         margin: 0;
@@ -63,14 +72,18 @@ h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 10px;
 }
 
 .coding-body {
-    background-color: lighten($coding-primary-color,5);
+    background-color: lighten($coding-primary-color,9);
     color: $coding-string;
     font-family:  'Roboto Mono', monospace;
+   
     #codetest{
         color: white;
+        padding-left: 5px;
+        
     }
     #keyword{
         color: $coding-keyword;
@@ -90,6 +103,16 @@ h3 {
     #function {
         color: $coding-function;
     }
+
+}
+
+.ide-wrapper {
+    border: $coding-equals 1px solid;
+    border-radius: 5px;
+    padding: 4px;
+    background: $coding-primary-color;
+    color: $coding-equals;
+    display: flex;
 }
 
 .gaming-body {
@@ -108,6 +131,7 @@ h3 {
     flex-direction: column;
     align-content: center;
     width: 94vw;
+
 }
 
 .project-item {
@@ -116,8 +140,31 @@ h3 {
     display: flex;
     flex-direction: column;
     align-content: center;
+    padding:10px;
     // justify-content: center;
     img {
         width: 98%;
     }
+}
+
+.coding-project {
+    border-top: $coding-string 5px solid;
+
+}
+
+.footbar{
+        height: 50px;
+        width: 100%;
+        z-index: 4;
+        // position: fixed;
+        background: $header-primary-color;
+        color: $header-secondary-color;
+        box-shadow: 0px -2px 3px rgb(27, 27, 27);
+        // 'Douglas Hellowell'
+        h1 {
+            margin: 0;
+            justify-content: center;
+            text-align: center;
+            padding: 5px;
+        }
 }

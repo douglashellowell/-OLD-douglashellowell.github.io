@@ -4,10 +4,17 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 13px; }
 
+h1 {
+  font-size: 40px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 10; }
+
 h2 {
   margin: 0;
   padding: 20px 0px 0px 0px;
-  text-indent: 50px; }
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 10;
+  font-size: 30px; }
 
 h3 {
   margin: 0;
@@ -19,7 +26,7 @@ h3 {
   position: fixed;
   background: #444;
   color: #fff;
-  box-shadow: 0px 5px 10px #000; }
+  box-shadow: 0px 5px 10px #1a1a1a; }
   .title-bar h1 {
     margin: 0;
     justify-content: center;
@@ -34,14 +41,16 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 10px; }
 
 .coding-body {
-  background-color: #2b2b2b;
+  background-color: #353535;
   color: #869f39;
   font-family: 'Roboto Mono', monospace; }
   .coding-body #codetest {
-    color: white; }
+    color: white;
+    padding-left: 5px; }
   .coding-body #keyword {
     color: #8a6ca1; }
   .coding-body #variable {
@@ -54,6 +63,14 @@ h3 {
     color: #bb4146; }
   .coding-body #function {
     color: #cb6502; }
+
+.ide-wrapper {
+  border: #606060 1px solid;
+  border-radius: 5px;
+  padding: 4px;
+  background: #1e1e1e;
+  color: #606060;
+  display: flex; }
 
 .gaming-body {
   background-color: #EE8922;
@@ -74,6 +91,23 @@ h3 {
   background-color: #1e1e1e;
   display: flex;
   flex-direction: column;
-  align-content: center; }
+  align-content: center;
+  padding: 10px; }
   .project-item img {
     width: 98%; }
+
+.coding-project {
+  border-top: #869f39 5px solid; }
+
+.footbar {
+  height: 50px;
+  width: 100%;
+  z-index: 4;
+  background: #444;
+  color: #fff;
+  box-shadow: 0px -2px 3px #1b1b1b; }
+  .footbar h1 {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    padding: 5px; }
