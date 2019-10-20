@@ -37,7 +37,7 @@ h3 {
   height: 50px; }
 
 .topic-header-wrapper {
-  width: 94vw;
+  width: 96vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,10 +67,11 @@ h3 {
 .ide-wrapper {
   border: #606060 1px solid;
   border-radius: 5px;
-  padding: 4px;
+  padding: 10px;
   background: #1e1e1e;
   color: #606060;
-  display: flex; }
+  display: flex;
+  box-shadow: inset 0px 0px 20px 0px black; }
 
 .gaming-body {
   background-color: #EE8922;
@@ -84,17 +85,19 @@ h3 {
 .projects-div {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  width: 94vw; }
+  width: 94vw;
+  max-width: 600px; }
 
 .project-item {
   background-color: #1e1e1e;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  padding: 10px; }
+  align-items: center;
+  padding: 10px;
+  justify-content: center; }
   .project-item img {
-    width: 98%; }
+    width: 94%;
+    max-width: 600px; }
 
 .coding-project {
   border-top: #869f39 5px solid; }
