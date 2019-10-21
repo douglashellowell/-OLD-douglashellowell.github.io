@@ -42,7 +42,7 @@ h3 {
   flex-direction: column;
   padding: 40px;
   background-color: #eaeaea;
-  background-image: url(/docs/img/bg1.png);
+  background-image: url(/dist/img/bg1.png);
   line-height: 1.7em; }
   .about-me img {
     border: 1px solid black;
@@ -65,7 +65,7 @@ h3 {
 
 .coding-body {
   background-color: #1e1e1e;
-  background-image: url(/docs/img/bg1.png);
+  background-image: url(/dist/img/bg1.png);
   color: #869f39;
   font-family: 'Roboto Mono', monospace; }
   .coding-body #codetest {
@@ -95,7 +95,7 @@ h3 {
 
 .gaming-body {
   background-color: #EE8922;
-  background-image: url(/docs/img/bg1.png);
+  background-image: url(/dist/img/bg1.png);
   color: #fff; }
 
 .projects-wrapper {
