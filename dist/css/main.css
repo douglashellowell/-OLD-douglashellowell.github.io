@@ -21,7 +21,7 @@ h3 {
   padding: 0px; }
 
 .title-bar {
-  height: 50px;
+  height: 60px;
   width: 100%;
   position: fixed;
   background: #444;
@@ -36,8 +36,27 @@ h3 {
 .underbannerpadding {
   height: 50px; }
 
+.about-me {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #eaeaea;
+  background-image: url(/dist/img/bg1.png);
+  line-height: 1.7em; }
+  .about-me img {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 20px; }
+
+.my-info {
+  border: 1px solid black;
+  background: white;
+  padding: 30px;
+  border-radius: 5px; }
+
 .topic-header-wrapper {
-  width: 96vw;
+  width: 94vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +64,8 @@ h3 {
   padding: 10px; }
 
 .coding-body {
-  background-color: #353535;
+  background-color: #1e1e1e;
+  background-image: url(/dist/img/bg1.png);
   color: #869f39;
   font-family: 'Roboto Mono', monospace; }
   .coding-body #codetest {
@@ -75,6 +95,7 @@ h3 {
 
 .gaming-body {
   background-color: #EE8922;
+  background-image: url(/dist/img/bg1.png);
   color: #fff; }
 
 .projects-wrapper {
@@ -89,7 +110,7 @@ h3 {
   max-width: 600px; }
 
 .project-item {
-  background-color: #1e1e1e;
+  background-color: #111111;
   display: flex;
   flex-direction: column;
   align-items: center;
