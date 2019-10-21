@@ -123,6 +123,12 @@ h3 {
 .coding-project {
   border-top: #869f39 5px solid; }
 
+.carosel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 .footbar {
   height: 50px;
   width: 100%;

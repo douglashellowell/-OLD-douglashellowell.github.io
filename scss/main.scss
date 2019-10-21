@@ -181,6 +181,13 @@ h3 {
 
 }
 
+.carosel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .footbar{
         height: 50px;
