@@ -181,6 +181,10 @@ h3 {
 
 }
 
+.gaming {
+    border-top: darken($gaming-secondary-color,10) 5px solid;
+}
+
 .carosel {
     display: flex;
     flex-direction: column;
