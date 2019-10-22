@@ -46,22 +46,50 @@ h3 {
     padding: 0px
 }
  
-.title-bar {
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    background: $header-primary-color;
-    color: $header-secondary-color;
-    box-shadow: 0px 5px 10px rgb(26, 26, 26);
-    // 'Douglas Hellowell'
-    h1 {
-        margin: 0;
-        justify-content: center;
-        text-align: center;
-        padding: 5px;
-    }
-};
+// .title-bar {
+//     height: 60px;
+//     width: 100%;
+//     position: fixed;
+//     background: $header-primary-color;
+//     color: $header-secondary-color;
+//     box-shadow: 0px 5px 10px rgb(26, 26, 26);
+//     // 'Douglas Hellowell'
+//     h1 {
+//         margin: 0;
+//         justify-content: center;
+//         text-align: center;
+//         padding: 5px;
+//     }
+// };
 
+.banner-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle-left {
+    width: 40;
+    height: 50;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 40vw solid rgb(204, 97, 97);
+    border-radius: 2.5em;
+}
+
+.triangle-right {
+    width: 40;
+    height: 50;
+    border-top: 40px solid transparent;
+    border-right:40vw solid #555;
+    border-bottom: 40px solid transparent;
+    border-radius: 2.5em;
+}
+
+.middle-text {
+    font-size: 5em;
+    text-align: center;
+}
 .underbannerpadding {
     height: 50px
 }
@@ -71,8 +99,8 @@ h3 {
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    background-color: #eaeaea;
-    background-image: url(/dist/img/bg1.png);
+    // background-color: #eaeaea;
+    // background-image: url(/dist/img/bg1.png);
     line-height: 1.7em;
     img {
         border: 1px solid black;
